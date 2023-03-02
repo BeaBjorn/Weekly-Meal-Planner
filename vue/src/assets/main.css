@@ -1,0 +1,109 @@
+
+/*
+
+Vue applikation för projektuppgift i kursen DT162G - JavaScriptbaserad webbutveckling
+Skapad av: Beatrice Björn
+Senast uppdaterad: 2023-02-13
+
+*/
+
+
+/*
+CSS to be included on all elemets in project
+*/
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width: 1700px){
+  main{
+    width: 90%;
+  }
+}
+
+@media(max-width: 1200px){
+  main{
+    width: 100%;
+  }
+
+  .add{
+    width: 100%;
+  }
+
+  h2{
+    padding-left: 0 !important;
+  }
+}
+
+@media(max-width: 930px){
+  .item, .units{
+    width: 30% !important;
+  }
+
+  .textInput{
+    width: 20% !important;
+  }
+
+  .updtList{
+    margin-left: 20% !important;
+  }
+
+}
+
+@media(max-width: 700px){
+  p{
+    width: 40% !important;
+  }
+
+  .updt{
+    margin-left: 10% !important;
+  }
+
+}
+
+@media(max-width: 600px){
+
+  .updtList{
+    margin-left: 15% !important;
+  }
+
+  .mainDiv{
+    width: 100% !important;
+  }
+
+}
+
+@media(max-width: 500px){
+  .textInput{
+    width: 90% !important;
+    margin-bottom: 3%;
+  }
+}
+
+@media(max-width: 440px){
+
+  .updtList{
+    margin-left: 8% !important;
+  }
+  .updt{
+    margin-left: 5% !important;
+  }
+
+  .burger{
+    margin-left: -10%;
+  }
+
+  .smallDiv{
+    width: 100% !important;
+  }
+
+
+}
+
+@media(min-width: 500px){
+  .addBr{
+    display: none;
+  }
+}
