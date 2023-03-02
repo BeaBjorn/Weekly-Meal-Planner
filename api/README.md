@@ -1,47 +1,45 @@
-# Projektuppgift för kursen JavaScriptbaserad webbutveckling - DT162G
 
-## Student : Beatrice Björn
-## Datum : 2023-02-13   
+# Cretaed by : Beatrice Björn
+# Date : 2023-02-13   
 
-
-Det här repositoryt innehåller ett API skapat för projektuppgiften i kursen JavaScriptbaserad webbutveckling.  
+This repository contains an API with full CRUD functionality lined to a MongoDB.
 
 
-### Konsumering av API  
-Det här är ett öppet API och är därmed tillgängligt för alla som vill konsummera det. 
+### Consuming API  
+This API is open for everyone to use as the like. Make sure to have Node.js installed. 
 
-#### Kommandon
-Ladda ner repot : git clone https://github.com/BeaBjorn/Projekt---API---DT162G.git
+#### Commands
+Download repository : git clone https://github.com/BeaBjorn/Weekly-Meal-Planner.git  
 
-Installera node-modules : npm install
+Install node-modules : npm install
 
-Starta server : nodemon  
+Start server : nodemon  
 
 
-### **API - kataloger**
+### **API - folders**
 
-| Models | Beskrivning |
+| Models | Description |
 | --- | --- |
-| list.js | Model för databastabellen "lists" |  
-| week.js |  Model för databastabellen "weeks" |  
+| list.js | Model for database collection "lists" |  
+| week.js |  Model for database collection "weeks" |  
 
-| routes | Beskrivning |
+| routes | Description |
 | --- | --- |
-| lists.js | CRUD funktionalitet för databastabellen lists |    
-| weeks.js | CRUD funktionalitet för databastabellen weeks |  
+| lists.js | CRUD functionality for database collection lists |    
+| weeks.js | CRUD functionality for database collection weeks |  
 
-| index.js | Beskrivning |
+| index.js | Description |
 | --- | --- |
-| index.js | Importering av npm-paket, anslutning till databasen "weekplanner_db" och routes |     
+| index.js | Importing npm-packages, connectiong to the database "weekplanner_db" and routes |     
  
 
 ### **Endpoints**
-| Url | Beskrivning |
+| Url | Description |
 | --- | --- |
-| http://localhost:3000/weeks |  CREATE och READ för att lägga till och läsa ut data från databastabellen "weeks"|
-| http://localhost:3000/weeks/{id} |  UPDATE och DELETE för att uppdatera och radera det värden med rätt id i databastabellen "weeks"|
-| http://localhost:3000/lists |  CREATE och READ för att lägga till och läsa ut data från databastabeller "lists"|
-| http://localhost:3000/lists/{id} |  UPDATE och DELETE för att uppdatera och radera det värdet med rätt id i databastabeller "lists"|  
+| http://localhost:3000/weeks |  CREATE and READ for database collection weeks |
+| http://localhost:3000/weeks/{id} |  UPDATE and DELETE for database collection weeks |
+| http://localhost:3000/lists |  CREATE and READ ffor database collection lists |
+| http://localhost:3000/lists/{id} |  UPDATE and DELETE for database table lists |  
 
 
 ### **Json-object**  

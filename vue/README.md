@@ -1,34 +1,32 @@
-# Projektuppgift för kursen JavaScriptbaserad webbutveckling - DT162G
 
-## Student : Beatrice Björn
-## Datum : 2023-02-13   
-
-
-Det här repositoryt innehåller en webbapplikation som skapats för projektuppgiften i kursen JavaScriptbaserad webbutveckling.    
-Webbapplikationen är en veckoplan för maträtter och inköpslista och konsumerar ett API som skapats med hjälp av och är kopplat till en MongoDB.  
+# Cretaed by : Beatrice Björn
+# Date : 2023-02-13   
 
 
-### Användning  
-
-#### Clona Project:   
-git clone https://github.com/BeaBjorn/Projekt---webbapplikation---DT162G.git  
+This repository contains a vue application consuming an API linked to a MongoDB. 
 
 
-#### Installera node_modules
+### Use  
+
+#### Clone Project:   
+git clone https://github.com/BeaBjorn/Weekly-Meal-Planner.git  
+
+
+#### Install node_modules
  - npm install
 
-#### Starta server
+#### Start server
  - npm run dev  
 
-#### Förbered för publicering genom att skapa dist katalog
+#### Prepare to launch
  - npm run build
 
 
 ### **Endpoints**
-| Url | Beskrivning |
+| Url | Description |
 | --- | --- |
-| http://localhost:3000/weeks |  CREATE och READ för att lägga till och läsa ut data från databastabellen "weeks"|
-| http://localhost:3000/weeks/{id} |  UPDATE och DELETE för att uppdatera och radera det värden med rätt id i databastabellen "weeks"|
-| http://localhost:3000/lists |  CREATE och READ för att lägga till och läsa ut data från databastabeller "lists"|
-| http://localhost:3000/lists/{id} |  UPDATE och DELETE för att uppdatera och radera det värdet med rätt id i databastabeller "lists"|  
+| http://localhost:3000/weeks |  CREATE and READ functionality for db collection "weeks"|
+| http://localhost:3000/weeks/{id} |  UPDATE and DELETE functionalitu for db collection "weeks"
+| http://localhost:3000/lists |  CREATE and READ functionality for db collection "lists"|
+| http://localhost:3000/lists/{id} |  UPDATE and DELETE functionalitu for db collection "lists"|  
      
